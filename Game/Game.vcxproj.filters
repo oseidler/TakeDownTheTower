@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Gameplay">
+      <UniqueIdentifier>{776b4d4d-be26-454f-9694-f0e8cc153440}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Definitions">
+      <UniqueIdentifier>{92fd5a80-8776-4f58-be4c-e986534d6966}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{482ac13e-ce96-461d-b231-edb10fb24a67}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main_Windows.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="App.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCommon.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="CardDefinition.cpp">
+      <Filter>Definitions</Filter>
+    </ClCompile>
+    <ClCompile Include="Card.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyDefinition.cpp">
+      <Filter>Definitions</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="EncounterDefinition.cpp">
+      <Filter>Definitions</Filter>
+    </ClCompile>
+    <ClCompile Include="Encounter.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectDefinition.cpp">
+      <Filter>Definitions</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveManager.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App.hpp">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCommon.hpp">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.hpp">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineBuildPreferences.hpp">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="CardDefinition.hpp">
+      <Filter>Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="Card.hpp">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.hpp">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyDefinition.hpp">
+      <Filter>Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.hpp">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="EncounterDefinition.hpp">
+      <Filter>Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="Encounter.hpp">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.hpp">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectDefinition.hpp">
+      <Filter>Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.hpp">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveManager.hpp">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\..\Run\Data\GameConfig.xml">
+      <Filter>Data</Filter>
+    </Xml>
+    <Xml Include="..\..\Run\Data\Definitions\CardDefinitions.xml">
+      <Filter>Data</Filter>
+    </Xml>
+    <Xml Include="..\..\Run\Data\Definitions\EncounterDefinitions.xml">
+      <Filter>Data</Filter>
+    </Xml>
+    <Xml Include="..\..\Run\Data\Definitions\EnemyDefinitions.xml">
+      <Filter>Data</Filter>
+    </Xml>
+    <Xml Include="..\..\Run\Data\Definitions\EffectDefinitions.xml">
+      <Filter>Data</Filter>
+    </Xml>
+  </ItemGroup>
+</Project>
